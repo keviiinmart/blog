@@ -31,15 +31,19 @@ This Django Blog Project is designed to provide a straightforward example of how
    ```bash
    cd blog
    ```
-3. Install the dependencies:
+3. Change file name:
+   ```bash
+   mv secrets-example.py to secrets.py
+   ```
+4. Install the dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-4. Perform database migrations:
+5. Perform database migrations:
    ```bash
    python manage.py migrate
    ```
-5. Create a superuser (admin):
+6. Create a superuser (admin):
    ```bash
    python manage.py createsuperuser
    ```
@@ -62,6 +66,3 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-Feel free to modify and expand upon this template to fit the specific details and requirements of your Django blog project.
