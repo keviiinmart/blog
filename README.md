@@ -51,7 +51,7 @@ This Django Blog Project is designed to provide a straightforward example of how
 ## Usage
 1. Start the development server:
    ```bash
-   python manage.py runserver
+   python3 manage.py runserver
    ```
 2. Open your web browser and navigate to `http://localhost:8000` to view the blog.
 3. To access the admin panel, go to `http://localhost:8000/admin` and log in using the superuser credentials created during installation.
